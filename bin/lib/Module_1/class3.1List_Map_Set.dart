@@ -25,7 +25,7 @@ void main()
   num.removeAt(0);
   print(num);
   print(num.length);
- // num.clear();
+  num.clear();
   print(num);
   
 
