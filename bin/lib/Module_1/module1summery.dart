@@ -68,6 +68,10 @@ void main()
   print("a1%b1=${a1%b1}");
 
 
+  //function of list
+
+
+
 
 
 
