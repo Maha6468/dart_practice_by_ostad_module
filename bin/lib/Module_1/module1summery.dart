@@ -105,6 +105,47 @@ print(names);
    */
 
 
+  //List Method
+  List<int> num=[10,20,30,40,50];
+  print(num);
+  num.add(60);
+  print(num);
+  num.addAll([70,80]);
+  print(num);
+  num.insert(2, 25);
+  print(num);
+  num.insertAll(4, [35,45]);
+  print(num);
+  num.remove(25);
+  print(num);
+  num.removeAt(3);
+  print(num);
+  num.removeLast();
+  print(num);
+  num.removeWhere((num)=>num<40);
+  print(num);
+  print(num.contains(20));
+  print(num.indexOf(20));
+  print(num.indexOf(50));
+  print(num.indexOf(70));
+  print(num.indexOf(10));
+  num.add(80);
+  print(num);
+  print(num.elementAt(2));
+  print(num.first);
+  print(num.last);
+  print(num.isEmpty);
+  print(num.isNotEmpty);
+  print(num.length);
+  num.sort();
+  print(num);
+  print(num.reversed);
+  num.shuffle();
+  print(num);
+  num.clear();
+  print(num);
+
+
 
 
 
