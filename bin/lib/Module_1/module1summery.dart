@@ -1,6 +1,7 @@
 import 'dart:io';
 void main()
 {
+  /*
   int age=25;
   print(age);
   double weight=65.3;
@@ -18,8 +19,9 @@ void main()
   print(x);
   x=99;
   print(x);
+  */
 
-
+  /*
   //Take input processes
   print("Enter a integer input: ");
   int age1=int.parse(stdin.readLineSync()!);
@@ -44,8 +46,9 @@ void main()
   print('Enter dynamic input:');
   dynamic input=stdin.readLineSync();
   print("My input is:$input");
+   */
 
-
+  /*
   //Arithmetic Operator
   int a=10,b=4;
   print("a+b=${a+b}");
@@ -55,7 +58,11 @@ void main()
   print("a~/b=${a~/b}");
   print("a%b=${a%b}");
 
+   */
 
+
+
+   /*
   //Arithmetic operator use user input
   print('Enter two integer input:');
   int a1=int.parse(stdin.readLineSync()!);
@@ -67,8 +74,36 @@ void main()
   print("a1~/b1=${a1~/b1}");
   print("a1%b1=${a1%b1}");
 
+   */
 
+
+  /*
   //function of list
+List <String> names=[];
+names.add('Maha');
+names.add('Ripon');
+print(names);
+names.add('Nilufa');
+print(names);
+names.remove('Maha');
+print(names);
+   */
+
+
+  /*
+  //Take input of list
+  List<int> numbers=[];
+  print("How many integer input you want:");
+  int n=int.parse(stdin.readLineSync()!);
+  print("Enter some integer input:");
+  for(int i=0;i<n;i++){
+
+    int num=int.parse(stdin.readLineSync()!);
+    numbers.add(num);
+  }
+  print(numbers);
+   */
+
 
 
 
