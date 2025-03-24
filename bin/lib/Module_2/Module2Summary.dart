@@ -126,6 +126,15 @@ String result=(age>=18? "You are an adult.":"You are underage");
 print(result);
 
 
+//Exception handling
+try{
+  int result1=10~/0;
+  print("Result1:$result1");
+}catch(e){
+  print("Exception occurred:$e");
+}
+
+
 
 
 
