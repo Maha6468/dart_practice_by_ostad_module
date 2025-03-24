@@ -61,7 +61,7 @@ void main(){
 
 
 
-
+/*
   //set
 
   Set<int> num={10,20,30,40,50};
@@ -104,8 +104,26 @@ void main(){
   print('first :${setA.first}');
   print('last:${setA.last}');
 
+ */
 
 
+
+
+//if-else
+int num=-5;
+if(num>0){
+  print("The number is positive.");
+}else if(num<0){
+  print("The number is negative.");
+}else{
+  print('The number is zero');
+}
+
+
+//ternary
+int age=18;
+String result=(age>=18? "You are an adult.":"You are underage");
+print(result);
 
 
 
