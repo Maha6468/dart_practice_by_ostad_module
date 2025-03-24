@@ -64,6 +64,46 @@ void main(){
 
   //set
 
+  Set<int> num={10,20,30,40,50};
+  print(num);
+
+  Set<String> fruit={'apple','banana'};
+  print(fruit);
+
+  //add()
+  fruit.add('mango');
+  print(fruit);
+
+  //addAll()
+  num.addAll({70,65,98});
+  print(num);
+  fruit.addAll({'jackfruit','coconat'});
+  print(fruit);
+
+  //remove()
+  fruit.remove('coconat');
+  print(fruit);
+
+  //contains()
+  print('contain mango:${fruit.contains('mango')}');
+
+  //union()
+  Set<int> setA={1,2,3,4};
+  Set<int> setB={3,4,5};
+  Set<int> unionSet=setA.union(setB);
+  print(unionSet);
+  print(setA.union(setB));   //ata korleo hoy
+
+  //intersection()
+  print(setA.intersection(setB));
+
+  //difference()
+  print(setA.difference(setB));
+
+  //first and last
+  print('first :${setA.first}');
+  print('last:${setA.last}');
+
 
 
 
