@@ -1,5 +1,8 @@
 void main(){
 
+
+  //Map
+  /*
   Map<String,int> studentMarks={
     'Rahim':85,
     'Karim':90,
@@ -50,9 +53,16 @@ void main(){
   print('Is empty :${studentMark.isNotEmpty}');
 
   //length
-  print(studentMark.length);
+  pr
+
+   */
 
 
+
+
+
+
+  //set
 
 
 
