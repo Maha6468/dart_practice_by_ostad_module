@@ -38,9 +38,18 @@
      calculateArea_with_prm(.5, .1,'Rangpur');
 
 
+     print('area of default value:${calculateAreaWithDefaultValue()}');
+
+
+
+      //print with default value
+     print('area of default value:${calculateAreaWithDefaultValue(length: 2.0)}');
+     print('area of default value:${calculateAreaWithDefaultValue(width: 5.0)}');
+
+
    }
 
-   //1way
+   //1way function with normal parameter
    double calculateArea(double length, double width){
   double area=length*width;
   return area;
@@ -62,6 +71,12 @@
    }
 
 
+
+
+   //1way function with default value
+   double calculateAreaWithDefaultValue({double length = 1.5, double width=2.3}){
+     return length*width;
+   }
 
 
 
