@@ -47,4 +47,5 @@ class Human{
 
 
 
-//method......dekhte hbe
+//method......dekthe hbe
+//static method ....dekthe hbe
