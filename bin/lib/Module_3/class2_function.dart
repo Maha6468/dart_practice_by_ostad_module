@@ -34,8 +34,8 @@
 
 
      calculateArea_with_prm(.5, .7);
-     calculateArea_with_prm(.5, .7,'Dhaka');
-     calculateArea_with_prm(.5, .7,'Rangpur');
+     calculateArea_with_prm(.5, .6,'Dhaka');
+     calculateArea_with_prm(.5, .1,'Rangpur');
 
 
    }
@@ -48,8 +48,6 @@
 
    //2way
    var calculateArea1=(double length,double width)=>(length*width);
-
-
 
 
     //3way optional peramiter
