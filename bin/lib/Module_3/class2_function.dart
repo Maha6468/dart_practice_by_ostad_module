@@ -46,7 +46,7 @@
   return area;
    }
 
-   //2way
+   //2way   (arrow function) /lambda function
    var calculateArea1=(double length,double width)=>(length*width);
 
 
