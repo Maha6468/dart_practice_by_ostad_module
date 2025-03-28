@@ -36,4 +36,5 @@ class Human{
 
 main(){
   Human Rifat = Human();
+  Rifat.moving();
 }
