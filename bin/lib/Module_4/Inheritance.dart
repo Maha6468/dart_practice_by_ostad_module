@@ -10,14 +10,12 @@
   speak(){
     print('$name is speaking');
   }
-
  }
-
 
  class Dog extends Animal{
   @override
   speak(){
-    print('gue gue');
+    print('guew guew');
   }
   String color;
   Dog(this.color,String name):super(name);
