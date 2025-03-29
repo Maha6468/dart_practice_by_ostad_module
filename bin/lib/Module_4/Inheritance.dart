@@ -1,4 +1,5 @@
- class Animal{
+
+class Animal{
   String name;
   static var test='this is animal class';
   Animal(this.name);
@@ -28,6 +29,7 @@ main(){
 
   Dog tom=Dog('Black','tom');
   tom.speak();
+
 
 
 }
