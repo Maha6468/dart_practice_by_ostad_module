@@ -11,5 +11,5 @@ class BankAccount{
 
 void main(){
   BankAccount BA=BankAccount('6468', 500);
-  print("Account name is :${BA._accountNumber} \nBalance have:${BA._balance}");
+  print("Account name is :\$${BA._accountNumber} \nBalance have:${BA._balance}");
 }
