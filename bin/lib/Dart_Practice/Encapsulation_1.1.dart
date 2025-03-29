@@ -19,11 +19,10 @@ class Student{
 
   }
 
+
   int getAge(){
     return _age;
   }
-
-
 
 }
 
@@ -33,6 +32,11 @@ void main(){
   student.setAge(25);
   print('Student name: ${student.getName()}');
   print('Student age: ${student.getAge()}');
+  student._name='Saim';
+  student._age=10;
+  print('Student name: ${student.getName()}');
+  print('Student age: ${student.getAge()}');
+
 
 
 }
