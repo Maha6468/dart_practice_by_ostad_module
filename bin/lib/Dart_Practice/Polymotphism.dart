@@ -12,6 +12,6 @@ class Child extends Parent{
 }
 
 void main(){
-  Parent obj=Parent();
+  Parent obj=Child();      //Parent obj=Parent(); look
   obj.show();
 }
