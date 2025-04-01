@@ -1,6 +1,6 @@
 class Animal {
   void makeSound() {
-    print("Animals make sounds");
+    print("Animals make sounds.");
   }
 }
 
@@ -8,11 +8,28 @@ class Cat extends Animal {
   @override
   void makeSound() {
     super.makeSound();              //look
-    print("Cat meows: Meow ,Meow!");
+    print("Cat meows: Meow! ,Meow!");
+  }
+
+  void sow(){
+    print('maha');
   }
 }
 
+//Upcastin
 void main() {
-  Cat obj = Cat();
+  Animal obj = Cat();
   obj.makeSound();
+ // obj.sow();   //it's worng not run
 }
+
+
+/*
+//Downcastin
+void main() {
+  Cat.obj = Cat();
+  obj.makeSound();
+  obj.sow();   //it's  run
+}
+
+ */
