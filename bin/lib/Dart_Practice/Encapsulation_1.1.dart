@@ -16,15 +16,13 @@ class Student{
     if(newAge>0){
       _age=newAge;
     }
-
   }
-
 
   int getAge(){
     return _age;
   }
-
 }
+
 
 void main(){
   Student student=Student();
