@@ -11,7 +11,7 @@ class Student extends Person{
   int roll;
   Student(String name,this.roll):super(name);
   void show(){
-    print("Roll:$roll");
+    print("Student name:$name Roll:$roll");
 }
 }
 
