@@ -21,6 +21,7 @@ void main() {
   Animal obj = Cat();
   obj.makeSound();
  // obj.sow();   //it's worng not run
+  //(obj as Cat).sow(); //it's work
 }
 
 
