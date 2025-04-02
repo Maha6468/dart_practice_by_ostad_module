@@ -24,7 +24,7 @@ class Student {
 
 
 void main() {
-  var student = Student('maha', 25);
+  var student = Student('Maha', 25);
   print('Student name: ${student.getName()}');
   print('Student age: ${student.getAge()}');
 
