@@ -18,7 +18,7 @@ person=12;
 print(person);
 print(person.runtimeType);
 
-dynamic person2='Mariya';
+dynamic person2='Nilufa';
 print(person2);
 person2=44;
 print(person2);
