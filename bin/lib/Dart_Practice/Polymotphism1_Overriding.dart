@@ -7,7 +7,7 @@ class Parent{
 class Child extends Parent{
   @override
   void show(){
-    print("This is child class");
+    print("This is child ");
   }
 }
 
