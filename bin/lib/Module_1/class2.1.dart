@@ -8,7 +8,7 @@ void main()
   print("Mul: $num1*$num2=${num1*num2}");
   print("Divi: $num1/$num2=${num1/num2}");
 
-  String num3='50';
+  String num3='64';
   print("Sum: $num1+$num3=${num1+int.parse(num3)}");
 
 }
