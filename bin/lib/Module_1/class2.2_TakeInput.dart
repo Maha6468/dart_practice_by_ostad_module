@@ -10,6 +10,6 @@ void main()
   print("Your age: $age");
 
   print("welcome to dart $name .\nYour age is $age.");
-  print("welcome to dart ${name?.toUpperCase()}.\nYour age is $age.");
+  print("welcome to dart ${name?.toUpperCase()}.\nYour age  $age.");
 
 }
