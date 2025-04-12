@@ -19,6 +19,6 @@ class Person {
 }
 
 void main() {
-  Person p1 = Person("John", 25);
+  Person p1 = Person("Maha", 25);
   p1.display();
 }
