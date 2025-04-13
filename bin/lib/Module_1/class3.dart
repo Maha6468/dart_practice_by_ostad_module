@@ -19,7 +19,7 @@ void main()
   print(a);
 
   //Relational Operator
-  int x=10,y=-20;
+  int x=10,y=-30;
   print(x<y);
   print(x>y);
   print(x==y);
