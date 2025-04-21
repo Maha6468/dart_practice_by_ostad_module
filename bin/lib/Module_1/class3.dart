@@ -11,7 +11,7 @@ void main()
 
   //Assignment operator
   int a=5;
-  a+=3;
+  a+=5;
   print(a);
   a-=2;
   print(a);
